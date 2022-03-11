@@ -12,7 +12,7 @@ abstract contract FlashLoanReceiverBase is IFlashLoanReceiver, Withdrawable {
     using SafeERC20 for IERC20;
     using SafeMath for uint256;
 
-    address constant ethAddress = 0xF45444171435d0aCB08a8af493837eF18e86EE27;//Wmatic mumbai
+    address constant ethAddress = 0x001B3B4d0F3714Ca98ba10F6042DaEbF0B1B7b6F;//DAI mumbai
     ILendingPoolAddressesProvider public addressesProvider;
 
     constructor(address _addressProvider) public {
